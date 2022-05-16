@@ -19,11 +19,10 @@ class Circle:
     """
     def __init__(self, radio) -> None:
         self.radio = radio
-    def calcular_area(self):
-        self.area = pi * self.radio**2
-        print(self.area)
-    def calcular_perimetro(self):
-        self.perimetro = 2 * pi * self.radio
+    def area(self):
+        return round(pi*(self.radio**2), 2)
+    def perimetro(self):
+        return round(2 * pi * self.radio, 2)
 
 
 
