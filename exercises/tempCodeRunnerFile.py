@@ -1,2 +1,6 @@
-def calcular_precio (self):
-    #     return round(self.costo + (self.costo * (21/100)), 2)
+try:
+#     article = Article(nombre="Auto", costo=1)
+#     article.precio = 2
+#     assert False, "No se puede modificar el precio"
+# except AttributeError:
+#     assert True
